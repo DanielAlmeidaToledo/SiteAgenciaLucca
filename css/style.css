@@ -1,0 +1,113 @@
+@font-face{
+    font-family: gotham;
+    src: url("/fonts/gotham/Gotham\ Medium.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header {
+    letter-spacing: 5px;
+    padding: 40px 45px 0px 40px;
+    color: white;
+    width: auto;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    position: relative;
+    font-size: 20px;
+}
+
+.nav-button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    letter-spacing: 5px;
+    border: none;
+}
+
+.nav-button:hover {
+    border-bottom: 1px white solid;
+    cursor: pointer;
+}
+
+.nav-logo {
+    cursor: pointer;
+    width: auto;
+    height: 70px;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    font-family: gotham;
+    display: inline;
+}
+
+.borda {
+    border: 9px rgb(235, 29, 71) solid;
+    position: absolute;
+    width: 660px;
+    height: 263px;
+    top: 185px;
+    left: 190px;
+}
+
+.frase {
+    max-width: 900px;
+    letter-spacing: 28px;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    font-size: 54px;
+    font-family: gotham;
+}
+
+footer {
+    font-style: italic;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 0px 12px 0px 12px;
+    text-align: center;
+    float: right;
+}
+
+.btt {
+    width: 30px;
+    height: auto;
+}
+
+.laws {
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
